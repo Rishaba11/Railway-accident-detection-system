@@ -397,7 +397,7 @@ def main():
 
         draw_roi_zone(frame, track_poly, "TRACK ZONE", danger=alert_flag)
 
-        cv2.line(frame, (0, crossing_y), (frame_w, crossing_y), (255, 255, 0), 1)
+        #cv2.line(frame, (0, crossing_y), (frame_w, crossing_y), (255, 255, 0), 1)
         
         draw_hud(frame, risk_level, ttc, train_speed_kmh, train_direction, alert_flag, fps, frame_count)
 
