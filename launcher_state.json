@@ -1,0 +1,35 @@
+{
+  "source": "file",
+  "filepath": "C:/railway_ai_project/railway_video1.mp4",
+  "camera_index": "0",
+  "model_path": "yolov8n.pt",
+  "conf_threshold": "0.40",
+  "iou_threshold": "0.45",
+  "known_speed_kmh": "90",
+  "calibration_frames": "20",
+  "high_risk_ttc": "5.0",
+  "medium_risk_ttc": "10.0",
+  "save_alerts": true,
+  "enable_sound": true,
+  "train_only_view": true,
+  "track_roi": [
+    [
+      0,
+      500
+    ],
+    [
+      0,
+      360
+    ],
+    [
+      1580,
+      500
+    ],
+    [
+      1420,
+      1400
+    ]
+  ],
+  "crossing_y_percent": 0.09351851851851851,
+  "preset_name": "Balanced"
+}
